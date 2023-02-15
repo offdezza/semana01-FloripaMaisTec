@@ -1,0 +1,116 @@
+* {
+  margin: 2px;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(236, 236, 236, 1) 0%,
+    rgba(238, 174, 202, 1) 100%
+  );
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff33;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 99%; /* Full width */
+}
+
+.cabecalho-gif-pato {
+  border-radius: 15px;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 1px -1px 10px #1c1c1c3c;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  transition: 300ms;
+  border-radius: 10px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 1px -1px 10px #5e5d5f;
+  background-image: url(https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=400);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botao {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.video {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.video h4 {
+  font-size: 25px;
+  text-decoration: overline;
+  margin-bottom: -35px;
+  text-decoration-color: rgba(238, 174, 202, 1);
+  color: #202021a1;
+}
+
+.video p {
+  margin-bottom: 10px;
+  
+}
+
+.rodape {
+    background-color: rgba(238, 174, 202, 1);
+    text-align: center;
+}
+
+.rodape p {
+    padding-top: 10px;
+    color: #202021a1;
+}
+
+
+/* Arquivo imagens.html */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column img {
+    border-radius: 10px;
+}
